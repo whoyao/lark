@@ -341,6 +341,9 @@ type Mock struct {
 	mockHireUpdateHireEmployee                           func(ctx context.Context, request *UpdateHireEmployeeReq, options ...MethodOptionFunc) (*UpdateHireEmployeeResp, *Response, error)
 	mockHireGetHireEmployeeByApplication                 func(ctx context.Context, request *GetHireEmployeeByApplicationReq, options ...MethodOptionFunc) (*GetHireEmployeeByApplicationResp, *Response, error)
 	mockHireGetHireEmployee                              func(ctx context.Context, request *GetHireEmployeeReq, options ...MethodOptionFunc) (*GetHireEmployeeResp, *Response, error)
+	mockSendMassageCard                                  func(ctx context.Context, request *SendMassageCardReq, options ...MethodOptionFunc) (*SendMassageCardResp, *Response, error)
+	mockSendTemporaryMassageCard                         func(ctx context.Context, request *SendTemporaryMassageCardReq, options ...MethodOptionFunc) (*SendTemporaryMassageCardResp, *Response, error)
+	mockDeleteTemporaryMassageCard                       func(ctx context.Context, request *DeleteTemporaryMassageCardReq, options ...MethodOptionFunc) (*Response, error)
 }
 
 func (r *Lark) Mock() *Mock {
