@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/chyroc/lark"
+	"github.com/whoyao/lark"
 )
 
 func main() {

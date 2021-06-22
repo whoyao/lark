@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chyroc/lark/internal"
+	"github.com/whoyao/lark/internal"
 )
 
 type Response struct {

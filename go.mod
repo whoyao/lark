@@ -1,4 +1,4 @@
-module github.com/chyroc/lark
+module github.com/whoyao/lark
 
 go 1.16
 
